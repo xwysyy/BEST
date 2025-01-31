@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+data/problems*
+*.log
+models.yaml
+.env
+process-data/*.csv
+process-data/dual_at_k/*.csv

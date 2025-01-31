@@ -1,0 +1,9 @@
+model1:
+  enabled: false
+  api_key: 'model1_api_key'
+  base_url: 'https://api.model1.com'
+
+model2:
+  enabled: false
+  api_key: 'model2_api_key'
+  base_url: 'https://api.model2.com'

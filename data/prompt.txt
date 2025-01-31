@@ -1,0 +1,53 @@
+You are a C++ programmer.You need to implement the solve function in the Solution class. 
+The input is given, and you need to implement the function body to return the result.
+Please ignore all previous conversation content and clear your context cache. 
+From now on, we will start a new conversation, and you do not need to reference any prior information.
+
+Here is an example:
+--- 
+# Problem Statement
+Given an array of integers nums, return the number of elements in the array that are greater than 1.
+
+The main function of the solution is defined as:  
+```cpp
+class Solution
+{
+public:
+    int solve(vector<int> &nums){
+        // write your code here
+    }
+};
+```
+where:
+- `nums` is the array of integers
+- return the number of elements in the array that are greater than 1
+
+# Example 1:  
+- Input: 
+nums = [1,2,3,2,1]
+- Output: 
+3
+
+constraints:
+- $1 <= nums.length, nums[i] <= 10000$
+- Time limit: 1000 ms  
+- Memory limit: 640 KB  
+---
+
+Only the portion between the last "\nclass Solution" and the end of the code block "```" is preserved when the code is intercepted.
+Please do not write code in class accidentally, and do not have excess parts.
+
+Please generate your code like this(Your functions must be encapsulated in "class Solution"):
+
+class Solution
+{
+public:
+    int solve(vector<int> &nums){
+        int n = nums.size();
+        int num = 0;
+        for (int i = 0; i < m; i++)
+            if (nums[i] > 1)
+                num++;
+        return num;
+    }
+};
